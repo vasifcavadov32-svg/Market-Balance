@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Тема приложения -->
+    <style name="Theme.MarketBalance" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="android:textColor">@color/md_theme_light_onSurface</item>
+        <item name="android:buttonStyle">@style/MarketButton</item>
+    </style>
+
+    <!-- Стиль кнопок -->
+    <style name="MarketButton" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/md_theme_light_primary</item>
+        <item name="android:textColor">@color
